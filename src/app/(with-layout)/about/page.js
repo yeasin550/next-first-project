@@ -22,7 +22,7 @@ const AboutPage = () => {
           <p className="my-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta
             luctus est interdum pretium. Fusce id tortor fringilla, suscipit
-            turpis ac, varius ex. Cras vel metus ligula. Nam enim ligula,
+            turpis ac, varius ex. Cras vel ddf metus ligula. Nam enim ligula,
             bibendum a iaculis ut, cursus id augue. Proin vitae purus id tortor
             vehicula scelerisque non in libero.
           </p>

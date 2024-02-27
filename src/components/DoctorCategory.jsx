@@ -1,9 +1,9 @@
 // import Link from "next/link";
+/* eslint-disable @next/next/no-img-element */
 import { FaArrowRight, FaUmbrellaBeach, FaCalendarPlus } from "react-icons/fa";
 import { FaUserDoctor } from "react-icons/fa6";
 import { GiBackstab } from "react-icons/gi";
 import { TbEmergencyBed } from "react-icons/tb";
-
 
 const DoctorCategory = () => {
   return (
@@ -76,9 +76,9 @@ const DoctorCategory = () => {
             Health By Our Specialists
           </h1>
           <p className="w-4/5">Great doctor if you need your family member to get effective immediate assistance, emergency treatment or a simple consultation.</p>
-          <p className="w-4/5">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to 'proper' Latin. It contains a series of real Latin words.
+          <p className="w-4/5">The most well-known dummy text is the Lorem Ipsum which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Lain language which more or less corresponds to proper Latin. It contains a series of real Latin words.
           </p>
-          <button className="bg-gray-200 border-2 py-2 px-4 rounded-md text-purple-700">Read more</button>
+          <a href="https://www.nemc.edu.bd/our-doctors/" className="bg-gray-200 border-2 mt-8 hover:bg-orange-400 py-2 px-4 rounded-md text-purple-700">Read more</a>
         </div>
         
           <div className="w-1/3">
