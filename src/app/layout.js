@@ -13,12 +13,8 @@ const  RootLayout = ({ children }) =>  {
     <html lang="en">
       <body className={inter.className}>
         <nav className="flex items-center gap-3 ">
-          {/* <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a> */}
         </nav>
         {children}
-      {/* <footer>The is footer section</footer> */}
       </body>
     </html>
   );

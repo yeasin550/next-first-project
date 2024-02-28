@@ -15,7 +15,7 @@ const navLinks = [
     title: "About",
   },
   {
-    path: "/appointment",
+    path: "/appoinment",
     title: "Appointment",
   },
   // {
