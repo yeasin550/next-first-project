@@ -7,7 +7,7 @@ export const metadata = {
 
 const DashboardLayout = ({ children }) => {
   return (
-    <div className="flex container mx-auto">
+    <div className="flex">
       {/* <a href="/add-product">Add Product</a>
            <a href="/manage-product">Manage Product</a> */}
       <Sidebar />
