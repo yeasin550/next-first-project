@@ -70,7 +70,7 @@ const DoctorCategory = () => {
 
       {/* About Doctris */}
       <div className="md:flex gap-3 items-center w-10/12 mx-auto mt-16">
-        <div className="space-y-6 w-2/3">
+        <div className="space-y-6 md:w-2/3">
           <p className="bg-gray-100 w-40 text-purple-700 text-center rounded-xl px-2">About Doctris</p>
           <h1 className="text-3xl font-semibold text-purple-500">Good Services And Better 
             Health By Our Specialists
@@ -83,7 +83,7 @@ const DoctorCategory = () => {
           </p>
         </div>
         
-          <div className="w-1/3">
+          <div className="md:w-1/3">
           <img
             className="rounded-md h-[500px]"
             src="https://img.freepik.com/free-photo/female-doctor-hospital-with-stethoscope_23-2148827776.jpg?w=360&t=st=1708932907~exp=1708933507~hmac=4192f0c662818efc37428bfdc089038aa12b161d698b4dff3b67205e065c46b2"

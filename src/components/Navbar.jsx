@@ -1,4 +1,5 @@
 // import Link from "next/link";
+/* eslint-disable @next/next/no-img-element */
 "use client"
 import  { useState } from 'react';
 import NavLink from "./NavLink";
@@ -14,8 +15,8 @@ const navLinks = [
     title: "About",
   },
   {
-    path: "/appoinment",
-    title: "Appoinment",
+    path: "/appointment",
+    title: "Appointment",
   },
   // {
   //   path: "/blogs",
@@ -52,13 +53,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      {/* <div className="bg-gray-300 cursor-pointer rounded-full border hover:border-2 border-purple-700">
-                  <img
-            src="https://img.freepik.com/free-photo/young-male-doctor-wearing-stethoscope-medical-gown-points-side-isolated-white-wall_141793-36176.jpg?w=740&t=st=1709101772~exp=1709102372~hmac=6144d43fb4bf9eb7a8bf56f793ef17fd5723101cb6a3a1b5f3aeb65ac6900b45"
-            alt="Image 1"
-            className="rounded-full w-12 h-12 "
-          />
-      </div> */}
+
           <div className="relative">
       <div className="bg-gray-300 cursor-pointer rounded-full border hover:border-2 border-purple-700" onClick={toggleDropdown}>
         <img
@@ -70,10 +65,10 @@ const Navbar = () => {
       {isOpen && (
         <div className="absolute z-10 right-0 mt-2 w-48 bg-white border border-gray-300 rounded-lg shadow-md">
          
-          <button className="block w-full text-lg text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-100">
+          <button className="block w-full text-lg text-left px-4 py-2 text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-100">
             Profile
           </button>
-           <button className="block w-full text-lg text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-100">
+           <button className="block w-full text-lg text-left px-4 py-2 text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-100">
             Login
           </button>
         </div>

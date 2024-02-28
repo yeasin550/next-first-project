@@ -26,7 +26,7 @@ const BookAppointment = () => {
     <div className="w-10/12 mx-auto my-16">
       <FaRegCalendarDays className="text-3xl text-purple-700 mb-5" />
       <div className="md:flex items-center gap-5">
-        <div className="w-1/2 space-y-5">
+        <div className="md:w-1/2 space-y-5">
           <h1 className="text-2xl font-bold">Book Your Appointment</h1>
           <p className="mb-7">Great doctor if you need your family member to get effective immediate assistance, emergency treatment or a simple consultation.
           </p>
@@ -60,7 +60,7 @@ const BookAppointment = () => {
         </div>
 
         {/* 2nd div */}
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <div className="mt-8 px-6 py-3 bg-gray-50 border rounded-lg">
             {/* <h2 className="text-xl font-bold mb-2 text-center">Appointment Form</h2> */}
             <form onSubmit={handleSubmit(onSubmit)}>

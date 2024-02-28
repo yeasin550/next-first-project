@@ -8,7 +8,7 @@ const Banner = () => {
         height: "550px", // Adjust height as needed
       }}
     >
-      <div className="w-[530px] mt-16 space lg:ml-12 space-y-5 ">
+      <div className="md:w-[530px] mt-16 space lg:ml-12 space-y-5 ">
         <h1 className="text-5xl font-semibold">Find Your Best Doctor</h1>
         <p>
           Great doctor if you need your family member to get immediate

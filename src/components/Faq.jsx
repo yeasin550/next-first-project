@@ -5,15 +5,15 @@ import { FaPhoneAlt } from "react-icons/fa";
 const Faq = () => {
   return (
     <div className="">
-      <div className="flex items-center gap-3">
-        <div className="w-1/2">
+      <div className="md:flex items-center gap-3">
+        <div className="md:w-1/2">
           <img
             className=""
             src="https://img.freepik.com/free-vector/medical-research-concept-illustration_114360-4763.jpg?w=740&t=st=1708794530~exp=1708795130~hmac=b66932f16261b52c91d856ad003cdc2b078de95e84ba183bd0ef6515506f68d4"
             alt=""
           />
         </div>
-        <div className="max-w-screen-xl w-1/2 mx-auto px-5 bg-white">
+        <div className="max-w-screen-xl md:w-1/2 mx-auto px-5 bg-white">
           <div class="flex flex-col items-center">
             {/* <h2 class="font-bold text-4xl mt-5 tracking-tight">FAQ</h2> */}
             <p class="text-purple-700 text-2xl mt-3">
