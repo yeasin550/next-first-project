@@ -29,7 +29,7 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between mx-auto px-10 sticky top-0 z-50 bg-white">
+    <nav className="flex items-center justify-between mx-auto px-10 sticky top-0 z-50 bg-white shadow-md shadow-purple-300">
       <h1 className="text-2xl flex items-center gap-2 font-bold text-purple-700">
         <FaHeartBroken /> Doctris
       </h1>

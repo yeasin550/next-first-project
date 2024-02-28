@@ -5,7 +5,7 @@ const Banner = () => {
       className="p-8 bg-cover bg-center"
       style={{
         backgroundImage: `url('https://img.freepik.com/free-photo/stethoscope-copy-space_23-2147652347.jpg?w=740&t=st=1708791189~exp=1708791789~hmac=ab6a99dfd03edd7caf13c393fcd3b1e7e2ce642cb77ab58d3469bf25b4ef4c96')`,
-        height: "500px", // Adjust height as needed
+        height: "550px", // Adjust height as needed
       }}
     >
       <div className="w-[530px] mt-16 space lg:ml-12 space-y-5 ">

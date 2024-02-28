@@ -76,9 +76,11 @@ const DoctorCategory = () => {
             Health By Our Specialists
           </h1>
           <p className="w-4/5">Great doctor if you need your family member to get effective immediate assistance, emergency treatment or a simple consultation.</p>
-          <p className="w-4/5">The most well-known dummy text is the Lorem Ipsum which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Lain language which more or less corresponds to proper Latin. It contains a series of real Latin words.
+          <p className="w-4/5 mb-12">The most well-known dummy text is the Lorem Ipsum which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Lain language which more or less corresponds to proper Latin. It contains a series of real Latin words.
           </p>
-          <a href="https://www.nemc.edu.bd/our-doctors/" className="bg-gray-200 border-2 mt-8 hover:bg-orange-400 py-2 px-4 rounded-md text-purple-700">Read more</a>
+          <p>
+            <a href="https://www.nemc.edu.bd/our-doctors/" className="bg-gray-200 border-2 shadow-lg border-purple-700 font-bold hover:text-white hover:bg-orange-400 py-2 px-4 rounded-md text-purple-700">Read more</a>
+          </p>
         </div>
         
           <div className="w-1/3">

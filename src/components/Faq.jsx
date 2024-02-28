@@ -133,37 +133,10 @@ const Faq = () => {
                 </p>
               </details>
             </div>
-            {/* <div class="py-5">
-            <details class="group">
-              <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                <span> Can I try this platform for free?</span>
-                <span class="transition group-open:rotate-180">
-                  <svg
-                    fill="none"
-                    height="24"
-                    shape-rendering="geometricPrecision"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    viewBox="0 0 24 24"
-                    width="24"
-                  >
-                    <path d="M6 9l6 6 6-6"></path>
-                  </svg>
-                </span>
-              </summary>
-              <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                We offers a free trial of its platform for a limited time.
-                During the trial period, you will have access to a limited set
-                of features and functionality, but you will not be charged.
-              </p>
-            </details>
-          </div> */}
           </div>
         </div>
       </div>
-      <div className="text-center my-12 space-y-4">
+      {/* <div className="text-center my-12 space-y-4">
         <h1 className="text-2xl font-bold">Have Question ? Get in touch!</h1>
         <p className="w-6/12 mx-auto">
           Great doctor if you need your family member to get effective immediate
@@ -174,7 +147,7 @@ const Faq = () => {
             <FaPhoneAlt /> Contact Us
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
