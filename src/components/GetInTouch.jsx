@@ -101,7 +101,7 @@ const GetInTouch = () => {
           {/* get the letest update */}
           <div className="w-full mx-auto py-5 sm:px-6">
   <div
-    className="px-6 py-6 rounded-lg md:py-12 md:px-12 lg:px-12 xl:flex xl:items-center"
+    className="px-6 py-6 rounded-lg md:py-12 md:px-12 lg:px-12 xl:flex xl:items-center "
     style={{ backgroundColor: "#483786" }}
   >
     <div className="xl:w-0 xl:flex-1">
